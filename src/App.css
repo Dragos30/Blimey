@@ -1,0 +1,330 @@
+.App {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.text-container{
+    background-color: #434d56c7;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: aliceblue;
+    padding: 3% 5%;
+    margin-top: 50%;
+    margin-left: 15%;
+    overflow-y: visible;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+ .text-container2{
+    background-color: #434d56c7;
+    background-size: cover;
+    text-align: start;
+    color: aliceblue;
+    padding: 5% 5%;
+    box-sizing: border-box;
+    overflow-y: visible;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+} 
+.links-container{
+    height: 100vh;
+}
+.container{
+       color: #434d56c7;;
+     }
+body{
+    background: url("./components/About/london.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    background-position-x: center;
+    color: #1c1e1e;
+    letter-spacing: .005em;
+    line-height: 1.3;
+    margin: 0;
+    font-family: Century Gothic;
+    font-size: small;
+    font-weight: 500;
+    overflow-y: hidden; 
+    height: 100%;
+}
+body h1 h2 h3{
+  font-weight: 900;
+}
+  div.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: none;
+    margin: none;
+    /* align-content: normal; */
+    align-self: stretch;
+    margin: 0%;
+  }
+  .offer{
+    background-color:  #f41e1ee0;
+    display: flex;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: small;
+    margin: auto;
+  }
+  #logo{
+    margin: auto;
+  }
+  .view{
+    font-size: xx-small;
+    color: blue;
+    margin: 0 30%;
+  }
+  #form label{
+    font-size: x-small;
+  }
+  .terms{
+    margin: 0 10px;
+  } 
+  .thanks{
+    font-size: 1.5rem;
+    margin: auto;
+  }
+  .terms button{
+    border: none;
+    /* margin-top: -39px;
+    margin-left: 350px; */
+    font-size: x-small;
+    height: 15px;
+    color: aliceblue;
+    background: transparent;
+  }
+  .terms button:hover,
+  .terms button:active{
+    color: blue;
+  }
+  #form{
+    background-color: #434d56;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    border: 2px solid red;
+    margin-top: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 18px 10px;
+    box-shadow: 5px 5px 5px 10px #000000bb;
+    align-items: center;
+  }
+  /* #form input{
+    background-color: whitesmoke;  
+    padding: 5px 10px;
+    margin: 2% 2%;
+    border: 2px solid #434d56;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow:inset 3px 3px 3px 3px #3b3b3b;
+  }
+  #form input:hover,
+  #form input:active{
+    border: 2px solid red;
+  }
+  #form textarea{
+    background-color: aliceblue;  
+    padding: 5px 10px;
+    margin: 2% 2%;
+    border: 2px solid #434d56;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow:inset 3px 1px 1px 3px #3b3b3b;
+  }
+  #form textarea:hover,
+  #form textarea:active{
+    border: 2px solid red;
+  } */
+  input[type="file"] {
+    display: none;
+}
+  /* .custom-file-upload{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px 10px;
+    margin: 2% 2%;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer; 
+    text-align: center;
+    box-shadow:inset 3px 3px 3px 3px #030303b4;
+  } */
+  .custom-file-upload{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    justify-content: space-around;
+      padding-bottom: 1.5rem;
+    border-color: transparent;
+    box-shadow: inset
+    12px 12px 16px 0 rgba(0, 0, 0, 0.308),
+    -8px -8px 12px 0 #434d56;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: #434d56;
+  }
+  .custom-file-upload:hover{
+    background-color: #f41e1ec7;
+    color: aliceblue;
+  }
+  .neumorphic{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    justify-content: space-around;
+      padding-bottom: 1.5rem;
+    border-color: transparent;
+    box-shadow: inset
+    12px 12px 16px 0 rgba(0, 0, 0, 0.308),
+    -8px -8px 12px 0 #434d56;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: #434d56;
+}
+.neumorphic:hover{
+  background-color: #434d56;
+}
+  #title{
+    margin: 5px 10px;
+  }
+  .Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+  }
+   
+  .Icons a:hover,
+  .Icons a:active{
+    color: red;
+  }
+  .thanks{
+    text-align: center;
+  }
+@media screen and (min-width : 320px) and (max-width : 768px){
+  .text-container{
+    text-align: start;
+    margin: 10% 5%;
+    overflow-y: auto;
+  }
+   .text-container2{
+    text-align: start;
+    margin: 10% 5%;
+    overflow-y: auto;
+  } 
+  body{
+    background: url("./components/About/Archisoup.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    background-position-x: center;
+    overflow: visible;
+  }
+  div.menu{
+    background-color: #f0f8ffc2;
+  }
+
+}
+@media screen and (min-width : 320px) and (max-width : 768px){
+.text-container2{ 
+     overflow-y: visible;
+}
+.footer{
+  padding: 0%;
+  margin: 0%;
+}
+.grid{
+  padding: 0%;
+}
+
+body{
+  overflow-y: visible;
+}
+.text-container2{
+  overflow-y: visible;
+}
+}
+@media screen and (min-width : 1024px){
+
+}
+@media screen and (min-width : 1024) and (max-width : 1440){
+  .logo-container{
+    margin-top: -80%;
+  }
+ 
+}
+@media screen and (min-width : 1440px) and (max-width : 2550px){
+#form{
+  font-size: 1rem;
+}
+.grid{
+  flex-direction: unset;
+}
+.text-container{
+  font-size: 1.0rem;
+  padding: 2% 3%;
+}
+.offer{
+  font-size: 2.0rem;
+}
+body p a{
+  font-size: 1rem;
+}
+body{
+  background-size: cover;
+}
+}
+@media screen and (min-width : 2560px) and (max-width : 3200px){
+body p {
+  font-size: 2.5rem;
+}
+.disc{
+  font-size: 2.5rem;
+}
+.offer{
+  font-size: 2.5rem;
+}
+body{
+  background-size: cover;
+}
+#form input{
+  font-size: 2.5rem;
+}
+#form textarea{
+  font-size: 2.5rem;
+  height: 10px;
+}
+#form label{
+  font-size: 2.5rem;
+}
+.terms button{
+  font-size: 2.5rem;
+}
+.Icons{
+  font-size: 2.5rem;
+}
+ul{
+  font-size: 2.5rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h3{
+  font-size: 2.5rem;
+}
+}
+

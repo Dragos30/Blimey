@@ -1,0 +1,20 @@
+{
+  "short_name": "Blimey",
+  "name": "A recruitment company that works for you!",
+  "icons": [
+    {
+      "src": "LOgo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "LOgo.png",
+      "type": "image/png",
+      "sizes": "712x712"
+    }
+  ],
+  "start_url": "https://www.blimeyrecruitment.co.uk",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#f0f8ffd8"
+}

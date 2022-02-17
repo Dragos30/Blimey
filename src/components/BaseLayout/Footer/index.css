@@ -1,0 +1,78 @@
+.footer {
+  background: url("./Londonb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  justify-content: space-around;
+  padding: 5% 5%;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.footer span{
+  font-size: small;
+  color: aliceblue;
+  font-weight: bold;
+}
+span h1{
+  color: red;
+  font-weight: 900;
+}
+#company a{
+  color: aliceblue;
+  text-decoration: underline;
+}
+#company a:hover,
+#company a:active{
+  color: red;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f0f8ff94;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+#logo{
+  width: 200px;
+}
+@media screen and (min-width : 320px) and (max-width : 1024px){
+#logo{
+  width: 100px;
+}
+#company{
+  font-size: xx-small;
+}
+
+
+}
+@media screen and (min-width : 768px) and (max-width : 1440px){
+  .footer{
+    margin: 0%;
+  }
+ #company{
+  font-size: 0.7rem;
+  margin-bottom: -20px;
+}
+}
+@media screen and (min-width : 2560px){
+  .footer{
+  margin-top: 300px;
+}
+#form button{
+  height: 80px;
+  font-size: 30px;
+}
+#company{
+  font-size: x-large;
+}
+#logo{
+  width: 350px;
+}
+}

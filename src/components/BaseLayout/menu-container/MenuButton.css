@@ -1,0 +1,39 @@
+@media (min-width: 768px){
+  .toggle-button{
+    display: none;
+  }
+}
+@media screen and (min-width : 0px) and (max-width : 768px){
+.toggle-button{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    justify-content: space-around;
+    right: 35px;
+    top: 20px;
+    right: 3px;
+}
+.toggle-button:focus{
+  outline: none;
+}
+.toggle-button_line{
+  width: 30px;
+  height: 3px;
+ background-image: linear-gradient(to right,#434D56, #F41E1E );
+}
+.toggle-button_line>p{
+  left: 10px;
+  top: 10px;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+}
+

@@ -1,0 +1,28 @@
+#whyUs{
+   text-align: start;
+   margin-top: 5%;
+   margin-left: 15%;
+   color: aliceblue;
+   box-sizing: border-box;
+   overflow-y: auto;
+   height: 100vh;
+}
+.disc{
+    list-style: disc;
+    padding: 5px 15px;
+}
+
+@media screen and (min-width : 0px) and (max-width : 768px){
+    #whyUs{
+        margin-bottom: 300px;
+        overflow-y: visible;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px){
+ 
+}
+@media screen and (min-width : 1024px) and (max-width : 3600px){
+
+}

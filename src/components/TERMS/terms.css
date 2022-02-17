@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    border: 2px solid red;
+    padding: 0%;
+}
+.container ul {
+    list-style-type: none;
+}
+#list{
+    padding: 2%;
+    list-style-type: none;
+}
+.modal-content{
+    background-color: #434d56c7;
+    color: aliceblue;
+}
+.modal-content ul li{
+    color: aliceblue;
+}
+.alpha-list{
+    list-style-type: lower-alpha;
+}
+@media screen and (min-width : 320px) and (max-width : 1024px){
+#list{
+    padding: 2%;
+    list-style-type: none;
+    box-sizing: content-box;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+#list li{
+    margin-top: 6px;
+}
+#list1 li{
+    margin-top: 5px;
+}
+.container ul {
+    padding: 2%;
+}
+}

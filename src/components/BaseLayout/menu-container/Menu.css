@@ -1,0 +1,77 @@
+
+#flyoutMenu {
+  width: 70%;
+  height: 100%;
+  /* background-color:  #434d56c7; */
+  background-color: #434d56;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .6s
+  cubic-bezier(0, .52, 0, 1);
+  overflow-wrap: normal;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+}
+#flyoutMenu.hide {
+  transform: translate3d(-120vw, 0, 0);
+}
+ 
+#flyoutMenu.show {
+  transform: translate3d( 0vw, 0, 0);
+  overflow: hidden;
+} 
+#flyoutMenu ul{
+  margin: 0%;
+}
+#flyoutMenu li{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+#flyoutMenu button{
+  width: 10px;
+  background-color: transparent;
+  position: absolute;
+  justify-self: flex-end;
+  margin: 55px 0;
+  margin-left: 280px;
+  border: none;
+  cursor: pointer;
+}
+#flyoutMenu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-top: 20px;
+  text-shadow: 2px 2px #f41e1ec7;
+}
+#flyoutMenu a:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: red;
+  transition: 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#flyoutMenu a:hover:after{
+    width: 100%; 
+    left: 0; 
+    text-shadow: none;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px){
+  #flyoutMenu a {
+    margin: 10px 5%;
+  }
+}
